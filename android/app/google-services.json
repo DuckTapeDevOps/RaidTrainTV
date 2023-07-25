@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "63816105500",
+    "firebase_url": "https://raidtraintv-default-rtdb.firebaseio.com",
+    "project_id": "raidtraintv",
+    "storage_bucket": "raidtraintv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63816105500:android:12a973ffb5801b5c58e9d9",
+        "android_client_info": {
+          "package_name": "com.example.raidtraintv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63816105500-cb8v078hj65ttnk5dstihgroma3qh0q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6YfCCGP3ZquxlgtYc773BZ3Srdi1Whf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63816105500-cb8v078hj65ttnk5dstihgroma3qh0q2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "63816105500-54oaa8hsms9nlmklu7m743vr7olp30b1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApplication1.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
