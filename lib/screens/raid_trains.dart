@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:intl/intl.dart';
 import 'package:yaml/yaml.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -30,9 +31,9 @@ class RaidTrains extends StatelessWidget {
     return yamlList;
   }
 
-  Future<void> _launchURL(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
+  Future<void> _launchURL(Uri url) async {
+    if (await canLaunchUrl(url)) {
+      await launchUrl(url);
     } else {
       throw 'Could not launch $url';
     }
@@ -66,12 +67,12 @@ class RaidTrains extends StatelessWidget {
                 children: events.map<Widget>((event) {
                   return ListTile(
                     leading: Icon(Icons.event),
-                    title: Text('Time: ${event['time']}'),
+                    title: Text('Time: ${DateFormat('yyyy-MM-dd – kk:mm').format(DateTime.parse(event['time']))}'),
                     subtitle: GestureDetector(
                       child: Text('User: ${event['user']}',
                         style: TextStyle(color: Colors.blue, decoration: TextDecoration.underline)),
                       onTap: () {
-                        _launchURL('https://www.twitch.tv/${event['user']}');
+                        _launchURL(Uri.parse('https://www.twitch.tv/${event['user']}'));
                       },
                     ),
                   );
