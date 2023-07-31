@@ -1,0 +1,123 @@
+- host: DragonHost
+  raids:
+    - name: RedDragonTrain
+      events: &id001
+      - time: '2023-07-28T03:00:00'
+        user: MerryMeerkat
+      - time: '2023-07-28T04:00:00'
+        user: TrendyToucan
+      - time: '2023-07-28T05:00:00'
+        user: PerkyPenguin
+      - time: '2023-07-28T06:00:00'
+        user: QuirkyQuokka
+      - time: '2023-07-28T07:00:00'
+        user: DizzyDuck
+      - time: '2023-07-28T08:00:00'
+        user: VivaciousVulture
+      - time: '2023-07-28T09:00:00'
+        user: SillySeal
+      - time: '2023-07-28T10:00:00'
+        user: BumpyBear
+      - time: '2023-07-28T11:00:00'
+        user: GigglyGoat
+      - time: '2023-07-28T12:00:00'
+        user: SillySeal
+      - time: '2023-07-28T13:00:00'
+        user: UnusualUnicorn
+      - time: '2023-07-28T14:00:00'
+        user: NiftyNarwhal
+      - time: '2023-07-28T15:00:00'
+        user: TrendyToucan
+      - time: '2023-07-28T16:00:00'
+        user: BumpyBear
+      - time: '2023-07-28T17:00:00'
+        user: RidiculousRaccoon
+      - time: '2023-07-28T18:00:00'
+        user: EccentricElephant
+      - time: '2023-07-28T19:00:00'
+        user: SillySeal
+      - time: '2023-07-28T20:00:00'
+        user: DizzyDuck
+      - time: '2023-07-28T21:00:00'
+        user: TrendyToucan
+      - time: '2023-07-28T22:00:00'
+        user: ZanyZebra
+      - time: '2023-07-28T23:00:00'
+        user: TrendyToucan
+      - time: '2023-07-29T00:00:00'
+        user: ExuberantXerus
+      - time: '2023-07-29T01:00:00'
+        user: YippyYak
+      - time: '2023-07-29T02:00:00'
+        user: SillySeal
+      - time: '2023-07-29T03:00:00'
+        user: GigglyGoat
+      - time: '2023-07-29T04:00:00'
+        user: VivaciousVulture
+      - time: '2023-07-29T05:00:00'
+        user: ZanyZebra
+      - time: '2023-07-29T06:00:00'
+        user: WackyWhale
+      - time: '2023-07-29T07:00:00'
+        user: BumpyBear
+      - time: '2023-07-29T08:00:00'
+        user: LivelyLlama
+      - time: '2023-07-29T09:00:00'
+        user: LivelyLlama
+      - time: '2023-07-29T10:00:00'
+        user: VivaciousVulture
+      - time: '2023-07-29T11:00:00'
+        user: ZanyZebra
+      - time: '2023-07-29T12:00:00'
+        user: WhimsicalWalrus
+      - time: '2023-07-29T13:00:00'
+        user: JollyJellyfish
+      - time: '2023-07-29T14:00:00'
+        user: PerkyPenguin
+      - time: '2023-07-29T15:00:00'
+        user: BumpyBear
+      - time: '2023-07-29T16:00:00'
+        user: ExuberantXerus
+      - time: '2023-07-29T17:00:00'
+        user: WhimsicalWalrus
+      - time: '2023-07-29T18:00:00'
+        user: SillySeal
+      - time: '2023-07-29T19:00:00'
+        user: LivelyLlama
+      - time: '2023-07-29T20:00:00'
+        user: JollyJellyfish
+      - time: '2023-07-29T21:00:00'
+        user: DizzyDuck
+      - time: '2023-07-29T22:00:00'
+        user: MerryMeerkat
+      - time: '2023-07-29T23:00:00'
+        user: SleepyHippo
+    - name: BlueDragonTrain
+      events: *id001
+
+- host: JediHost
+  raids:
+    - name: ObiWanTrain
+      events: *id001
+    - name: LukeSkywalkerTrain
+      events: *id001
+    - name: YodaTrain
+      events: *id001
+
+- host: DuckHost
+  raids:
+    - name: DaffyTrain
+      events: *id001
+    - name: DonaldTrain
+      events: *id001
+    - name: HowardTrain
+      events: *id001
+
+- host: DogHost
+  raids:
+    - name: ScoobyTrain
+      events: *id001
+    - name: PlutoTrain
+      events: *id001
+    - name: GoofyTrain
+      events: *id001
