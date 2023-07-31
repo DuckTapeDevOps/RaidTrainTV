@@ -2,7 +2,14 @@ import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
 import 'firebase_options.dart';
+import 'utils/fire_auth.dart';
+import 'utils/validator.dart';
+import 'screens/login_page.dart';
+
+final _formKey = GlobalKey<FormState>();
 
 
 
@@ -12,6 +19,8 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  // Ideal time to initialize
+  await FirebaseAuth.instance.useAuthEmulator('localhost', 56664);
   runApp(MyApp());
 }
 
@@ -26,7 +35,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MyAppState(),
       child: MaterialApp(
-        title: 'Namer App',
+        title: 'RaidTrain TV',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -38,14 +47,19 @@ class MyApp extends StatelessWidget {
 }
 
 class MyAppState extends ChangeNotifier {
+  var streamers = new Map();
   var current = WordPair.random();
   // var current = "testing"
+
   void getNext() {
     current = WordPair.random();
     notifyListeners();
   }
    var favorites = <WordPair>[];
 
+  void addStreamer(){
+    notifyListeners();
+  }
   void toggleFavorite() {
     if (favorites.contains(current)) {
       favorites.remove(current);
@@ -56,9 +70,37 @@ class MyAppState extends ChangeNotifier {
   }
 }
 
+// class LoginPage extends StatelessWidget {
+//   Future<FirebaseApp> _initializeFirebase() async {
+//     FirebaseApp firebaseApp = await Firebase.initializeApp();
+//     return firebaseApp;
+//   }
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: Text('Firebase Authentication'),
+//       ),
+//       body: FutureBuilder(
+//         future: _initializeFirebase(),
+//         builder: (context, snapshot) {
+//           if (snapshot.connectionState == ConnectionState.done) {
+//             return Column(
+//               children: [
+//                 Text('Login'),
+//               ],
+//             );
+//           }
+//           return Center(
+//             child: CircularProgressIndicator(),
+//           );
+//         },
+//       ),
+//     );
+//   }
+// }
 
 class MyHomePage extends StatefulWidget {
-  @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
@@ -70,10 +112,20 @@ class _MyHomePageState extends State<MyHomePage> {
     Widget page;
     switch (selectedIndex) {
       case 0:
-        page = GeneratorPage();
+        page = LoginPage();
         break;
       case 1:
+        page = GeneratorPage();
+        break;
+      case 2:
         page = FavoritesPage();
+        break;
+      case 3:
+        page = OrganizeRaidTrainPage();
+        break;
+      case 4:
+        FirebaseAuth.instance.signOut();
+        page = LoginPage();
         break;
       default:
         throw UnimplementedError('no widget for $selectedIndex');
@@ -88,12 +140,24 @@ class _MyHomePageState extends State<MyHomePage> {
                     extended: constraints.maxWidth >= 600,
                     destinations: [
                       NavigationRailDestination(
+                        icon: Icon(Icons.login),
+                        label: Text('Log In'),
+                      ),
+                      NavigationRailDestination(
                         icon: Icon(Icons.home),
                         label: Text('Home'),
                       ),
                       NavigationRailDestination(
                         icon: Icon(Icons.favorite),
                         label: Text('Favorites'),
+                      ),
+                      NavigationRailDestination(
+                        icon: Icon(Icons.train),
+                        label: Text('Organize RaidTrain'),
+                      ),
+                      NavigationRailDestination(
+                        icon: Icon(Icons.logout),
+                        label: Text('Log Out'),
                       ),
                     ],
                     selectedIndex: selectedIndex,
@@ -120,6 +184,23 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 class FavoritesPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    var appState = context.watch<MyAppState>();
+
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          for(WordPair favorite in appState.favorites) BigCard(pair: favorite),
+          SizedBox(height: 10),
+        ],
+      ),
+    );
+  }
+}
+
+class OrganizeRaidTrainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
