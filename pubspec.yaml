@@ -1,4 +1,4 @@
-name: namer_app
+name: raid_train_tv
 description: A new Flutter project.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -11,18 +11,28 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  yaml: any
+  url_launcher: ^6.0.12
+  cupertino_icons: ^1.0.5
   english_words: ^4.0.0
   provider: ^6.0.0
   firebase_core: ^2.15.0
   cloud_firestore: ^4.8.3
-  firebase_auth: ^4.7.1
+  firebase_auth: ^4.7.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  build_web_compilers: ^4.0.4
+  build_test: ^2.1.7
 
 flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/raid_trains.yaml

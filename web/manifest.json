@@ -1,6 +1,6 @@
 {
-    "name": "raidtraintv",
-    "short_name": "raidtraintv",
+    "name": "raid_train_tv",
+    "short_name": "raid_train_tv",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
