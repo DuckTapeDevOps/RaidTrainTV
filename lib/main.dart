@@ -36,8 +36,11 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'RaidTrain TV',
         theme: ThemeData(
+          brightness: Brightness.dark,
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.dark().copyWith(
+            primary: Color.fromARGB(255, 49, 14, 108),
+          ),
         ),
         home: MyHomePage(),
       ),
