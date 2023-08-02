@@ -1,8 +1,6 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import './favorites_page.dart';
 import './raid_trains.dart';
-import './login_page.dart';
 import './organize_raid_train_page.dart';
 
 class MyHomePage extends StatefulWidget {
