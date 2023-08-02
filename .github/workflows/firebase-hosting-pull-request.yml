@@ -6,6 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      # Setup Flutter environment
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.10.6' # specify the Flutter version you want to use
+
       # Get dependencies with Flutter pub
       - run: flutter pub get
 
