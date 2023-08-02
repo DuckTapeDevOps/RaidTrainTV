@@ -5,7 +5,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import 'screens/home_page.dart'; // Import the HomePage
 import 'state.dart'; // Import the AppState class from state.dart
-import 'firebase_options.dart'; // Import the firebase_options.dart file
 
 
 final _formKey = GlobalKey<FormState>();
@@ -15,9 +14,7 @@ final _formKey = GlobalKey<FormState>();
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp();
   // Ideal time to initialize
   await FirebaseAuth.instance.useAuthEmulator('localhost', 56664);
   runApp(MyApp());
