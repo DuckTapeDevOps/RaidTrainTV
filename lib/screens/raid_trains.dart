@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
+import 'package:intl/date_symbol_data_local.dart';
 import 'package:yaml/yaml.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+
+
+String convertToLocaleTime(String eventTime) {
+    // Convert event time to DateTime object
+    DateTime dateTime = DateFormat("EEEE, MMMM d, y HH:mm").parse(eventTime);
+    // Format DateTime object to local time
+    String formattedDateTime = DateFormat.yMMMMd().add_jm().format(dateTime.toLocal());
+    return formattedDateTime;
+  }
 
 class RaidTrains extends StatelessWidget {
   @override
@@ -65,14 +75,15 @@ class RaidTrains extends StatelessWidget {
                   style: TextStyle(fontSize: 18, color: Colors.grey),
                 ),
                 children: events.map<Widget>((event) {
+                  String convertedTime = convertToLocaleTime(event['time']);
                   return ListTile(
                     leading: Icon(Icons.event),
-                    title: Text('Time: ${DateFormat('yyyy-MM-dd – kk:mm').format(DateTime.parse(event['time']))}'),
+                    title: Text('Time: $convertedTime'),
                     subtitle: GestureDetector(
-                      child: Text('User: ${event['user']}',
+                      child: Text('${event['user']}',
                         style: TextStyle(color: Colors.blue, decoration: TextDecoration.underline)),
                       onTap: () {
-                        _launchURL(Uri.parse('https://www.twitch.tv/${event['user']}'));
+                        _launchURL(Uri.parse('https://www.${event['link']}'));
                       },
                     ),
                   );
