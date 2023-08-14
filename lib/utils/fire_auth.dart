@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+final FirebaseAuth _auth = FirebaseAuth.instance;
+
 class FireAuth {
+    
+  Future<User?> signInWithTwitch() async {
+    final OAuthProvider twitchProvider = OAuthProvider('twitch.tv');
+
+    final UserCredential userCredential = await _auth.signInWithPopup(twitchProvider);
+
+    return userCredential.user;
+  }
+
   static Future<User?> registerUsingEmailPassword({
     required String name,
     required String email,
