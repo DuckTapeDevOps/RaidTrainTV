@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart'; // Import the DefaultFirebaseOptions class
-import 'package:intl/intl.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'screens/home_page.dart'; // Import the HomePage
 import 'state.dart'; // Import the AppState class from state.dart
@@ -18,7 +17,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   // Ideal time to initialize
-  await FirebaseAuth.instance.useAuthEmulator('localhost', 56664);
+  // await FirebaseAuth.instance.useAuthEmulator('localhost', 56664);
   initializeDateFormatting().then((_) => runApp(MyApp()));
 }
   
