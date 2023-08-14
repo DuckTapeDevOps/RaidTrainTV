@@ -9,6 +9,7 @@ import 'state.dart'; // Import the AppState class from state.dart
 
 
 final _formKey = GlobalKey<FormState>();
+
  
 
 
@@ -20,8 +21,6 @@ Future<void> main() async {
   // await FirebaseAuth.instance.useAuthEmulator('localhost', 56664);
   initializeDateFormatting().then((_) => runApp(MyApp()));
 }
-  
-
 
 class MyApp extends StatelessWidget {
   

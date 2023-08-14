@@ -1,7 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+final FirebaseAuth _auth = FirebaseAuth.instance;
+
 class FireAuth {
+    
+  Future<User?> signInWithTwitch() async {
+    final OAuthProvider twitchProvider = OAuthProvider('Twitch');
+
+    try {
+    final UserCredential userCredential = await FirebaseAuth.instance.signInWithPopup(twitchProvider);
+    return userCredential.user;
+    } catch (e) {
+        print("Error during Twitch sign-in: $e");
+        if (e is FirebaseAuthException) {
+            print('Error code: ${e.code}');
+            print('Error message: ${e.message}');
+        }
+    return null;
+}
+
+  }
+
   static Future<User?> registerUsingEmailPassword({
     required String name,
     required String email,
