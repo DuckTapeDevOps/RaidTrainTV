@@ -3,7 +3,7 @@ import 'package:english_words/english_words.dart';
 
 
 class MyAppState extends ChangeNotifier {
-  var streamers = new Map();
+  var streamers = {};
   var current = WordPair.random();
   // var current = "testing"
 
