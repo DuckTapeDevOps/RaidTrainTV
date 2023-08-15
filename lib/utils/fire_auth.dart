@@ -1,25 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:twitch_api/twitch_api.dart';
+
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
+
+const clientId = "wgt3b63eja0ykpkesftb4s3qofqeg9";
+const redirectUri = "https://raidtraintv.firebaseapp.com/__/auth/handler"; // ex: "http://localhost/"
+
+final _twitchClient = TwitchClient(
+  clientId: clientId,
+  redirectUri: redirectUri,
+);
+
+
 
 class FireAuth {
     
   Future<User?> signInWithTwitch() async {
-    final OAuthProvider twitchProvider = OAuthProvider('oidc.twitch');
-
     try {
-    final UserCredential userCredential = await FirebaseAuth.instance.signInWithPopup(twitchProvider);
-    return userCredential.user;
+      OAuthProvider oAuthProvider = OAuthProvider('oidc.twitch');
+      UserCredential userCredential = await FirebaseAuth.instance.signInWithPopup(oAuthProvider);
     } catch (e) {
-        print("Error during Twitch sign-in: $e");
+      print("Error during Twitch sign-in: $e");
         if (e is FirebaseAuthException) {
             print('Error code: ${e.code}');
             print('Error message: ${e.message}');
-        }
-    return null;
-}
-
+      }
+    }
   }
 
   static Future<User?> registerUsingEmailPassword({
