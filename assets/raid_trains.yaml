@@ -157,178 +157,182 @@
 - host: Golden Shrimp Guild
   raids:
     - name: SYNTHON 808
-      events:
-      - time: Thursday, August 10, 2023 13:00
-        user: Your Opponent
-        link: twitch.tv/youropponent0
-      - time: Thursday, August 10, 2023 13:30
-        user: Your Opponent
-        link: twitch.tv/youropponent0
-      - time: Thursday, August 10, 2023 14:00
-        user: Your Opponent
-        link: twitch.tv/youropponent0
-      - time: Thursday, August 10, 2023 14:30
-        user: Jayven Foxx
-        link: twitch.tv/jayvenfoxx
-      - time: Thursday, August 10, 2023 15:00
-        user: Jayven Foxx
-        link: twitch.tv/jayvenfoxx
-      - time: Thursday, August 10, 2023 15:30
-        user: Jayven Foxx
-        link: twitch.tv/jayvenfoxx
-      - time: Thursday, August 10, 2023 16:00
-        user: Mr. X
-        link: twitch.tv/w_mrx
-      - time: Thursday, August 10, 2023 16:30
-        user: Mr. X
-        link: twitch.tv/w_mrx
-      - time: Thursday, August 10, 2023 17:00
-        user: Mr. X
-        link: twitch.tv/w_mrx
-      - time: Thursday, August 10, 2023 17:30
-        user: Iamjustcoke
-        link: twitch.tv/iamjustcoke
-      - time: Thursday, August 10, 2023 18:00
-        user: Iamjustcoke
-        link: twitch.tv/iamjustcoke
-      - time: Thursday, August 10, 2023 18:30
-        user: Iamjustcoke
-        link: twitch.tv/iamjustcoke
-      - time: Thursday, August 10, 2023 19:00
-        user: Luquado
-        link: twitch.tv/luquado
-      - time: Thursday, August 10, 2023 19:30
-        user: Luquado
-        link: twitch.tv/luquado
-      - time: Thursday, August 10, 2023 20:00
-        user: Luquado
-        link: twitch.tv/luquado
-      - time: Thursday, August 10, 2023 20:30
-        user: Luquado
-        link: twitch.tv/luquado
-      - time: Thursday, August 10, 2023 21:00
-        user: Solvognen
-        link: twitch.tv/solvognen
-      - time: Thursday, August 10, 2023 21:30
-        user: Solvognen
-        link: twitch.tv/solvognen
-      - time: Thursday, August 10, 2023 22:00
-        user: Solvognen
-        link: twitch.tv/solvognen
-      - time: Thursday, August 10, 2023 22:30
-        user: Solvognen
-        link: twitch.tv/solvognen
-      - time: Thursday, August 10, 2023 23:00
-        user: Dr. Squeakers
-        link: twitch.tv/dr_squeakers
-      - time: Thursday, August 10, 2023 23:30
-        user: Dr. Squeakers
-        link: twitch.tv/dr_squeakers
-      - time: Friday, August 11, 2023 00:00
-        user: Dr. Squeakers
-        link: twitch.tv/dr_squeakers
-      - time: Friday, August 11, 2023 00:30
-        user: Batzpajamas ft. Noxmoderato
-        link: twitch.tv/batzpajamas
-      - time: Friday, August 11, 2023 01:00
-        user: Batzpajamas ft. Noxmoderato
-        link: twitch.tv/batzpajamas
-      - time: Friday, August 11, 2023 01:30
-        user: Batzpajamas ft. Noxmoderato
-        link: twitch.tv/batzpajamas
-      - time: Friday, August 11, 2023 02:00
-        user: Bleeptemple
-        link: twitch.tv/bleeptemple
-      - time: Friday, August 11, 2023 02:30
-        user: Bleeptemple
-        link: twitch.tv/bleeptemple
-      - time: Friday, August 11, 2023 03:00
-        user: Lady Jalina
-        link: twitch.tv/jalinadarkrealm
-      - time: Friday, August 11, 2023 03:30
-        user: Lady Jalina
-        link: twitch.tv/jalinadarkrealm
-      - time: Friday, August 11, 2023 04:00
-        user: Bleeptemple
-        link: twitch.tv/bleeptemple
-      - time: Friday, August 11, 2023 04:30
-        user: Bleeptemple
-        link: twitch.tv/bleeptemple
-      - time: Friday, August 11, 2023 05:00
-        user: RyotaMaekawa
-        link: twitch.tv/ryotamaekawa
-      - time: Friday, August 11, 2023 05:30
-        user: RyotaMaekawa
-        link: twitch.tv/ryotamaekawa
-      - time: Friday, August 11, 2023 06:00
-        user: RyotaMaekawa
-        link: twitch.tv/ryotamaekawa
-      - time: Friday, August 11, 2023 06:30
-        user: Weird is Dead
-        link: twitch.tv/weirdisdead
-      - time: Friday, August 11, 2023 07:00
-        user: Weird is Dead
-        link: twitch.tv/weirdisdead
-      - time: Friday, August 11, 2023 07:30
-        user: Weird is Dead
-        link: twitch.tv/weirdisdead
-      - time: Friday, August 11, 2023 08:00
-        user: Weird is Dead
-        link: twitch.tv/weirdisdead
-      - time: Friday, August 11, 2023 08:30
-        user: ctl_alt_del
-        link: twitch.tv/ctl_alt_del
-      - time: Friday, August 11, 2023 09:00
-        user: ctl_alt_del
-        link: twitch.tv/ctl_alt_del
-      - time: Friday, August 11, 2023 09:30
-        user: Incomer
-        link: twitch.tv/incomerband
-      - time: Friday, August 11, 2023 10:00
-        user: Incomer
-        link: twitch.tv/incomerband
-      - time: Friday, August 11, 2023 10:30
-        user: Incomer
-        link: twitch.tv/incomerband
-      - time: Friday, August 11, 2023 11:00
-        user: Dan Tremblay
-        link: twitch.tv/dantremblaymusic
-      - time: Friday, August 11, 2023 11:30
-        user: Dan Tremblay
-        link: twitch.tv/dantremblaymusic
-      - time: Friday, August 11, 2023 12:00
-        user: Dan Tremblay
-        link: twitch.tv/dantremblaymusic
-      - time: Friday, August 11, 2023 12:30
-        user: The Graceful Bard
-        link: twitch.tv/thegracefulbard
-      - time: Friday, August 11, 2023 13:00
-        user: The Graceful Bard
-        link: twitch.tv/thegracefulbard
-      - time: Friday, August 11, 2023 13:30
-        user: The Graceful Bard
-        link: twitch.tv/thegracefulbard
-      - time: Friday, August 11, 2023 14:00
-        user: Notes and Volts
-        link: twitch.tv/notesandvolts
-      - time: Friday, August 11, 2023 14:30
-        user: Notes and Volts
-        link: twitch.tv/notesandvolts
-      - time: Friday, August 11, 2023 15:00
-        user: Notes and Volts
-        link: twitch.tv/notesandvolts
-      - time: Friday, August 11, 2023 15:30
-        user: ClockBash
-        link: twitch.tv/clockbash
-      - time: Friday, August 11, 2023 16:00
-        user: ClockBash
-        link: twitch.tv/clockbash
-      - time: Friday, August 11, 2023 16:30
-        user: Wombra
-        link: twitch.tv/wombra
-      - time: Friday, August 11, 2023 17:00
-        user: Wombra
-        link: twitch.tv/wombra
-      - time: Friday, August 11, 2023 17:30
-        user: Wombra
-        link: twitch.tv/wombra
+      days:
+          - day: Thursday, August 10, 2023
+            events:
+            - time: Thursday, August 10, 2023 13:00
+              user: Your Opponent
+              link: twitch.tv/youropponent0
+            - time: Thursday, August 10, 2023 13:30
+              user: Your Opponent
+              link: twitch.tv/youropponent0
+            - time: Thursday, August 10, 2023 14:00
+              user: Your Opponent
+              link: twitch.tv/youropponent0
+            - time: Thursday, August 10, 2023 14:30
+              user: Jayven Foxx
+              link: twitch.tv/jayvenfoxx
+            - time: Thursday, August 10, 2023 15:00
+              user: Jayven Foxx
+              link: twitch.tv/jayvenfoxx
+            - time: Thursday, August 10, 2023 15:30
+              user: Jayven Foxx
+              link: twitch.tv/jayvenfoxx
+            - time: Thursday, August 10, 2023 16:00
+              user: Mr. X
+              link: twitch.tv/w_mrx
+            - time: Thursday, August 10, 2023 16:30
+              user: Mr. X
+              link: twitch.tv/w_mrx
+            - time: Thursday, August 10, 2023 17:00
+              user: Mr. X
+              link: twitch.tv/w_mrx
+            - time: Thursday, August 10, 2023 17:30
+              user: Iamjustcoke
+              link: twitch.tv/iamjustcoke
+            - time: Thursday, August 10, 2023 18:00
+              user: Iamjustcoke
+              link: twitch.tv/iamjustcoke
+            - time: Thursday, August 10, 2023 18:30
+              user: Iamjustcoke
+              link: twitch.tv/iamjustcoke
+            - time: Thursday, August 10, 2023 19:00
+              user: Luquado
+              link: twitch.tv/luquado
+            - time: Thursday, August 10, 2023 19:30
+              user: Luquado
+              link: twitch.tv/luquado
+            - time: Thursday, August 10, 2023 20:00
+              user: Luquado
+              link: twitch.tv/luquado
+            - time: Thursday, August 10, 2023 20:30
+              user: Luquado
+              link: twitch.tv/luquado
+            - time: Thursday, August 10, 2023 21:00
+              user: Solvognen
+              link: twitch.tv/solvognen
+            - time: Thursday, August 10, 2023 21:30
+              user: Solvognen
+              link: twitch.tv/solvognen
+            - time: Thursday, August 10, 2023 22:00
+              user: Solvognen
+              link: twitch.tv/solvognen
+            - time: Thursday, August 10, 2023 22:30
+              user: Solvognen
+              link: twitch.tv/solvognen
+            - time: Thursday, August 10, 2023 23:00
+              user: Dr. Squeakers
+              link: twitch.tv/dr_squeakers
+            - time: Thursday, August 10, 2023 23:30
+              user: Dr. Squeakers
+              link: twitch.tv/dr_squeakers
+          - day: Friday, August 11, 2023
+            events:
+            - time: Friday, August 11, 2023 00:00
+              user: Dr. Squeakers
+              link: twitch.tv/dr_squeakers
+            - time: Friday, August 11, 2023 00:30
+              user: Batzpajamas ft. Noxmoderato
+              link: twitch.tv/batzpajamas
+            - time: Friday, August 11, 2023 01:00
+              user: Batzpajamas ft. Noxmoderato
+              link: twitch.tv/batzpajamas
+            - time: Friday, August 11, 2023 01:30
+              user: Batzpajamas ft. Noxmoderato
+              link: twitch.tv/batzpajamas
+            - time: Friday, August 11, 2023 02:00
+              user: Bleeptemple
+              link: twitch.tv/bleeptemple
+            - time: Friday, August 11, 2023 02:30
+              user: Bleeptemple
+              link: twitch.tv/bleeptemple
+            - time: Friday, August 11, 2023 03:00
+              user: Lady Jalina
+              link: twitch.tv/jalinadarkrealm
+            - time: Friday, August 11, 2023 03:30
+              user: Lady Jalina
+              link: twitch.tv/jalinadarkrealm
+            - time: Friday, August 11, 2023 04:00
+              user: Bleeptemple
+              link: twitch.tv/bleeptemple
+            - time: Friday, August 11, 2023 04:30
+              user: Bleeptemple
+              link: twitch.tv/bleeptemple
+            - time: Friday, August 11, 2023 05:00
+              user: RyotaMaekawa
+              link: twitch.tv/ryotamaekawa
+            - time: Friday, August 11, 2023 05:30
+              user: RyotaMaekawa
+              link: twitch.tv/ryotamaekawa
+            - time: Friday, August 11, 2023 06:00
+              user: RyotaMaekawa
+              link: twitch.tv/ryotamaekawa
+            - time: Friday, August 11, 2023 06:30
+              user: Weird is Dead
+              link: twitch.tv/weirdisdead
+            - time: Friday, August 11, 2023 07:00
+              user: Weird is Dead
+              link: twitch.tv/weirdisdead
+            - time: Friday, August 11, 2023 07:30
+              user: Weird is Dead
+              link: twitch.tv/weirdisdead
+            - time: Friday, August 11, 2023 08:00
+              user: Weird is Dead
+              link: twitch.tv/weirdisdead
+            - time: Friday, August 11, 2023 08:30
+              user: ctl_alt_del
+              link: twitch.tv/ctl_alt_del
+            - time: Friday, August 11, 2023 09:00
+              user: ctl_alt_del
+              link: twitch.tv/ctl_alt_del
+            - time: Friday, August 11, 2023 09:30
+              user: Incomer
+              link: twitch.tv/incomerband
+            - time: Friday, August 11, 2023 10:00
+              user: Incomer
+              link: twitch.tv/incomerband
+            - time: Friday, August 11, 2023 10:30
+              user: Incomer
+              link: twitch.tv/incomerband
+            - time: Friday, August 11, 2023 11:00
+              user: Dan Tremblay
+              link: twitch.tv/dantremblaymusic
+            - time: Friday, August 11, 2023 11:30
+              user: Dan Tremblay
+              link: twitch.tv/dantremblaymusic
+            - time: Friday, August 11, 2023 12:00
+              user: Dan Tremblay
+              link: twitch.tv/dantremblaymusic
+            - time: Friday, August 11, 2023 12:30
+              user: The Graceful Bard
+              link: twitch.tv/thegracefulbard
+            - time: Friday, August 11, 2023 13:00
+              user: The Graceful Bard
+              link: twitch.tv/thegracefulbard
+            - time: Friday, August 11, 2023 13:30
+              user: The Graceful Bard
+              link: twitch.tv/thegracefulbard
+            - time: Friday, August 11, 2023 14:00
+              user: Notes and Volts
+              link: twitch.tv/notesandvolts
+            - time: Friday, August 11, 2023 14:30
+              user: Notes and Volts
+              link: twitch.tv/notesandvolts
+            - time: Friday, August 11, 2023 15:00
+              user: Notes and Volts
+              link: twitch.tv/notesandvolts
+            - time: Friday, August 11, 2023 15:30
+              user: ClockBash
+              link: twitch.tv/clockbash
+            - time: Friday, August 11, 2023 16:00
+              user: ClockBash
+              link: twitch.tv/clockbash
+            - time: Friday, August 11, 2023 16:30
+              user: Wombra
+              link: twitch.tv/wombra
+            - time: Friday, August 11, 2023 17:00
+              user: Wombra
+              link: twitch.tv/wombra
+            - time: Friday, August 11, 2023 17:30
+              user: Wombra
+              link: twitch.tv/wombra
