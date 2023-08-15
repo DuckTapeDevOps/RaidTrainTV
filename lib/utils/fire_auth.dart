@@ -6,7 +6,7 @@ final FirebaseAuth _auth = FirebaseAuth.instance;
 class FireAuth {
     
   Future<User?> signInWithTwitch() async {
-    final OAuthProvider twitchProvider = OAuthProvider('Twitch');
+    final OAuthProvider twitchProvider = OAuthProvider('oidc.twitch');
 
     try {
     final UserCredential userCredential = await FirebaseAuth.instance.signInWithPopup(twitchProvider);
