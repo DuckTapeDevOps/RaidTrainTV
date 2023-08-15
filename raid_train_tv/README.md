@@ -1,6 +1,6 @@
-# raid_train_tv
+# RaidTrainTV
 
-A new Flutter project.
+A seamless experience for Twitch music festivals. RaidTrainTV is your ultimate scheduling app, designed to organize and track raid trains as they hop from one musician to the next. Never miss a beat – stay in sync with all your favorite performances!
 
 ## Getting Started
 
