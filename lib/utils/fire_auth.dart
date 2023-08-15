@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:twitch_api/twitch_api.dart';
+
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
+
+final _twitchClient = TwitchClient(
+  clientId: 'wgt3b63eja0ykpkesftb4s3qofqeg9',
+  redirectUri: 'https://raidtraintv.firebaseapp.com/__/auth/handler',
+);
 
 class FireAuth {
     

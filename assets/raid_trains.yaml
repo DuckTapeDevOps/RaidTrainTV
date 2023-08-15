@@ -1,3 +1,159 @@
+- host: Jedi_NiTeMaRe
+  raids:
+    - name: Jedi Friends 16
+      days:
+        - day: Thursday, August 17, 2023
+          events:
+            - time: Thursday, August 17, 2023 05:30
+              user: Juliaoksi
+              link: twitch.tv/Juliaoksi
+            - time: Thursday, August 17, 2023 07:00
+              user: TheKonexos
+              link: twitch.tv/TheKonexos
+            - time: Thursday, August 17, 2023 09:00
+              user: Wzrdwzrd
+              link: twitch.tv/Wzrdwzrd
+            - time: Thursday, August 17, 2023 11:00
+              user: MangoMindsetLive
+              link: twitch.tv/MangoMindsetLive
+            - time: Thursday, August 17, 2023 13:00
+              user: HallFlutes
+              link: twitch.tv/HallFlutes
+            - time: Thursday, August 17, 2023 15:00
+              user: Ronusan
+              link: twitch.tv/Ronusan
+            - time: Thursday, August 17, 2023 17:00
+              user: NotesAndVolts
+              link: twitch.tv/NotesAndVolts
+            - time: Thursday, August 17, 2023 19:00
+              user: ThereminPlayer
+              link: twitch.tv/ThereminPlayer
+            - time: Thursday, August 17, 2023 21:00
+              user: RuckusHullabaloo
+              link: twitch.tv/RuckusHullabaloo
+            - time: Thursday, August 17, 2023 23:00
+              user: KtGFtW
+              link: twitch.tv/KtGFtW
+        - day: Friday, August 18, 2023
+          events:
+            - time: Friday, August 18, 2023 00:00
+              user: Apryl_Knight
+              link: twitch.tv/Apryl_Knight
+            - time: Friday, August 18, 2023 02:00
+              user: Darksun_music
+              link: twitch.tv/Darksun_music
+            - time: Friday, August 18, 2023 04:00
+              user: Kenneth_is_missing_a_note
+              link: twitch.tv/Kenneth_is_missing_a_note
+            - time: Friday, August 18, 2023 05:00
+              user: LisaCuthbertLive
+              link: twitch.tv/LisaCuthbertLive
+            - time: Friday, August 18, 2023 07:00
+              user: 302_Dave
+              link: twitch.tv/302_Dave
+            - time: Friday, August 18, 2023 09:00
+              user: HibanaSound
+              link: twitch.tv/HibanaSound
+            - time: Friday, August 18, 2023 11:00
+              user: KineticTurtle
+              link: twitch.tv/KineticTurtle
+            - time: Friday, August 18, 2023 13:00
+              user: KristieDawn
+              link: twitch.tv/KristieDawn
+            - time: Friday, August 18, 2023 14:00
+              user: UnfocusedinIA
+              link: twitch.tv/UnfocusedinIA
+            - time: Friday, August 18, 2023 16:00
+              user: The_Repressions
+              link: twitch.tv/The_Repressions
+            - time: Friday, August 18, 2023 18:00
+              user: KellyAndMitch
+              link: twitch.tv/KellyAndMitch
+            - time: Friday, August 18, 2023 20:00
+              user: ionse
+              link: twitch.tv/ionse
+            - time: Friday, August 18, 2023 22:00
+              user: TargusSongs
+              link: twitch.tv/TargusSongs
+        - day: Saturday, August 19, 2023
+          events:
+            - time: Saturday, August 19, 2023 00:00
+              user: OpenSet
+              link: twitch.tv/OpenSet
+            - time: Saturday, August 19, 2023 03:00
+              user: TyrJamMusic
+              link: twitch.tv/TyrJamMusic
+            - time: Saturday, August 19, 2023 05:00
+              user: Mikulski_
+              link: twitch.tv/Mikulski_
+            - time: Saturday, August 19, 2023 07:00
+              user: MatiMartyn
+              link: twitch.tv/MatiMartyn
+            - time: Saturday, August 19, 2023 09:00
+              user: Actitect
+              link: twitch.tv/Actitect
+            - time: Saturday, August 19, 2023 11:00
+              user: HibanaSound
+              link: twitch.tv/HibanaSound
+            - time: Saturday, August 19, 2023 13:00
+              user: Seven_Senshi
+              link: twitch.tv/Seven_Senshi
+            - time: Saturday, August 19, 2023 14:00
+              user: CoincidenceMachine
+              link: twitch.tv/CoincidenceMachine
+            - time: Saturday, August 19, 2023 16:00
+              user: BardicPerspiration
+              link: twitch.tv/BardicPerspiration
+            - time: Saturday, August 19, 2023 18:00
+              user: Dean_George
+              link: twitch.tv/Dean_George
+            - time: Saturday, August 19, 2023 20:00
+              user: The_Socially_Distant
+              link: twitch.tv/The_Socially_Distant
+            - time: Saturday, August 19, 2023 22:00
+              user: TargusSongs
+              link: twitch.tv/TargusSongs
+        - day: Sunday, August 20, 2023
+          events:
+            - time: Sunday, August 20, 2023 00:00
+              user: BleepTemple
+              link: twitch.tv/BleepTemple
+            - time: Sunday, August 20, 2023 02:00
+              user: N_eonvoid
+              link: twitch.tv/N_eonvoid
+            - time: Sunday, August 20, 2023 04:00
+              user: ChromaCatLive
+              link: twitch.tv/ChromaCatLive
+            - time: Sunday, August 20, 2023 06:00
+              user: Tonecaster
+              link: twitch.tv/Tonecaster
+            - time: Sunday, August 20, 2023 08:00
+              user: SantiagoCastilloES
+              link: twitch.tv/SantiagoCastilloES
+            - time: Sunday, August 20, 2023 09:00
+              user: Incomerband
+              link: twitch.tv/Incomerband
+            - time: Sunday, August 20, 2023 11:00
+              user: w_mrx
+              link: twitch.tv/w_mrx
+            - time: Sunday, August 20, 2023 12:00
+              user: KseniaGalaxy
+              link: twitch.tv/KseniaGalaxy
+            - time: Sunday, August 20, 2023 14:00
+              user: MimeteTV
+              link: twitch.tv/MimeteTV
+            - time: Sunday, August 20, 2023 15:00
+              user: ThereminPlayer
+              link: twitch.tv/ThereminPlayer
+            - time: Sunday, August 20, 2023 17:00
+              user: TheKonexos
+              link: twitch.tv/TheKonexos
+            - time: Sunday, August 20, 2023 19:00
+              user: LisaCuthbertLive
+              link: twitch.tv/LisaCuthbertLive
+            - time: Sunday, August 20, 2023 21:00
+              user: MialyMusic
+              link: twitch.tv/MialyMusic
 - host: Golden Shrimp Guild
   raids:
     - name: SYNTHON 808

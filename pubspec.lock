@@ -265,6 +265,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
+  dio:
+    dependency: transitive
+    description:
+      name: dio
+      sha256: ce75a1b40947fea0a0e16ce73337122a86762e38b982e1ccb909daa3b9bc4197
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.3.2"
   english_words:
     dependency: "direct main"
     description:
@@ -368,6 +376,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: c3fd9336eb55a38cc1bbd79ab17573113a8deccd0ecbbf926cca3c62803b5c2d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.1"
   frontend_server_client:
     dependency: transitive
     description:
@@ -725,6 +741,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  twitch_api:
+    dependency: "direct main"
+    description:
+      name: twitch_api
+      sha256: "214755427a6e492c992c766e4fe9e65ebcf287d857327532618d0c646a336939"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.0"
   typed_data:
     dependency: transitive
     description:
