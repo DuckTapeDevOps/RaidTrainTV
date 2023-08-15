@@ -66,32 +66,52 @@ class RaidTrains extends StatelessWidget {
             ),
             children: raids.map<Widget>((raid) {
               String raidName = raid['name'];
-              List events = List<Map>.from(raid['events']);
 
-              return ExpansionTile(
-                title: Text(
-                  raidName,
-                  style: TextStyle(fontSize: 18, color: Colors.grey),
-                ),
-                children: events.map<Widget>((event) {
-                  String convertedTime = convertToLocaleTime(event['time']);
-                  return ListTile(
-                    leading: Icon(Icons.event),
-                    title: Text('Time: $convertedTime'),
-                    subtitle: GestureDetector(
-                      child: Text('${event['user']}',
-                        style: TextStyle(color: Colors.blue, decoration: TextDecoration.underline)),
-                      onTap: () {
-                        _launchURL(Uri.parse('https://www.${event['link']}'));
-                      },
-                    ),
-                  );
-                }).toList(),
-              );
+                            // Check if the 'days' key exists in YAML
+              if (raid.containsKey('days')) {
+                List<Map> days = List<Map>.from(raid['days']);
+                return ExpansionTile(
+                  title: Text(
+                    raidName,
+                    style: TextStyle(fontSize: 18, color: Colors.grey),
+                  ),
+                  children: days.map<Widget>((day) {
+                    String dayName = day['day'];
+                    List<Map> events = List<Map>.from(day['events']);
+                    return buildEventList(dayName, events);
+                  }).toList(),
+                );
+              } else {
+                List<Map> events = List<Map>.from(raid['events']);
+                return buildEventList(raidName, events);
+              }
             }).toList(),
-          ),
+              ),
         );
       },
+    );
+  }
+// Function to build the list of events
+  Widget buildEventList(String title, List<Map> events) {
+    return ExpansionTile(
+      title: Text(
+        title,
+        style: TextStyle(fontSize: 18, color: Colors.grey),
+      ),
+      children: events.map<Widget>((event) {
+        String convertedTime = convertToLocaleTime(event['time']);
+        return ListTile(
+          leading: Icon(Icons.event),
+          title: Text('Time: $convertedTime'),
+          subtitle: GestureDetector(
+            child: Text('${event['user']}',
+              style: TextStyle(color: Colors.blue, decoration: TextDecoration.underline)),
+            onTap: () {
+              _launchURL(Uri.parse('https://www.${event['link']}'));
+            },
+          ),
+        );
+      }).toList(),
     );
   }
 }

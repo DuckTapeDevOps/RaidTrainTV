@@ -5,10 +5,15 @@ import 'package:twitch_api/twitch_api.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
 
+const clientId = "wgt3b63eja0ykpkesftb4s3qofqeg9";
+const redirectUri = "https://raidtraintv.firebaseapp.com/__/auth/handler"; // ex: "http://localhost/"
+
 final _twitchClient = TwitchClient(
-  clientId: 'wgt3b63eja0ykpkesftb4s3qofqeg9',
-  redirectUri: 'https://raidtraintv.firebaseapp.com/__/auth/handler',
+  clientId: clientId,
+  redirectUri: redirectUri,
 );
+
+
 
 class FireAuth {
     
