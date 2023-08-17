@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart'; // Import the DefaultFirebaseOptions class
 import 'package:intl/date_symbol_data_local.dart';
 import 'screens/home_page.dart'; // Import the HomePage
