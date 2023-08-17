@@ -6,8 +6,8 @@ import 'package:twitch_api/twitch_api.dart';
 final FirebaseAuth _auth = FirebaseAuth.instance;
 
 const clientId = "wgt3b63eja0ykpkesftb4s3qofqeg9";
-const redirectUri = "https://raidtraintv.firebaseapp.com/__/auth/handler"; // ex: "http://localhost/"
-
+const redirectUri = "https://id.twitch.tv/oauth2/authorize"; // ex: "http://localhost/"
+// https://id.twitch.tv/oauth2/authorize?client_id=wgt3b63eja0ykpkesftb4s3qofqeg9&redirect_uri=https://raidtraintv.firebaseapp.com/__/auth/handler&response_type=token&scope=openid
 final _twitchClient = TwitchClient(
   clientId: clientId,
   redirectUri: redirectUri,
@@ -16,17 +16,25 @@ final _twitchClient = TwitchClient(
 
 
 class FireAuth {
-    
   Future<User?> signInWithTwitch() async {
     try {
       OAuthProvider oAuthProvider = OAuthProvider('oidc.twitch');
+      oAuthProvider.addScope('user:read:email');
+      oAuthProvider.setCustomParameters({
+        'client_id': clientId,
+        'response_type': 'code',
+        'redirect_uri': 'https://raidtraintv.firebaseapp.com/__/auth/handler',
+      });
+      
       UserCredential userCredential = await FirebaseAuth.instance.signInWithPopup(oAuthProvider);
+      return userCredential.user;
     } catch (e) {
       print("Error during Twitch sign-in: $e");
-        if (e is FirebaseAuthException) {
-            print('Error code: ${e.code}');
-            print('Error message: ${e.message}');
+      if (e is FirebaseAuthException) {
+        print('Error code: ${e.code}');
+        print('Error message: ${e.message}');
       }
+      return null;
     }
   }
 
