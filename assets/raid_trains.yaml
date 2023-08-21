@@ -1,3 +1,57 @@
+- host: JazzCreatorsOnline
+  raids :
+    - name: Jazz On
+      days:
+        - day: Monday, August 21, 2023
+          events:
+            - time: Monday, August 21, 2023 08:00
+              user: JXZZCXT
+              link: twitch.tv/JXZZCXT
+            - time: Monday, August 21, 2023 09:00
+              user: YENTINGLO
+              link: twitch.tv/YENTINGLO
+            - time: Monday, August 21, 2023 10:00
+              user: BLUCOX
+              link: twitch.tv/BLUCOX
+            - time: Monday, August 21, 2023 11:00
+              user: EDUARDOARANTES_
+              link: twitch.tv/EDUARDOARANTES_
+            - time: Monday, August 21, 2023 12:00
+              user: JERFOTHEUSICADDICT
+              link: twitch.tv/JERFOTHEUSICADDICT
+            - time: Monday, August 21, 2023 13:00
+              user: LIVIA_CORAZZA
+              link: twitch.tv/LIVIA_CORAZZA
+            - time: Monday, August 21, 2023 14:00
+              user: FERNANDOSOUZAGUITAR
+              link: twitch.tv/FERNANDOSOUZAGUITAR
+            - time: Monday, August 21, 2023 15:00
+              user: FIKTAH
+              link: twitch.tv/FIKTAH
+            - time: Monday, August 21, 2023 16:00
+              user: ARIELCEE (ARCAJAZZ)
+              link: twitch.tv/ARIELCEE
+            - time: Monday, August 21, 2023 17:00
+              user: THEGABESTUDIO
+              link: twitch.tv/THEGABESTUDIO
+            - time: Monday, August 21, 2023 18:00
+              user: THEFUNKYSPUD
+              link: twitch.tv/THEFUNKYSPUD
+            - time: Monday, August 21, 2023 19:00
+              user: MYLIVINGROOM
+              link: twitch.tv/MYLIVINGROOM
+            - time: Monday, August 21, 2023 20:00
+              user: ANDREACANNONGUITAR
+              link: twitch.tv/ANDREACANNONGUITAR
+            - time: Monday, August 21, 2023 21:00
+              user: MAMITA24
+              link: twitch.tv/MAMITA24
+            - time: Monday, August 21, 2023 22:00
+              user: THEKEYBOARDGRINDER
+              link: twitch.tv/THEKEYBOARDGRINDER
+            - time: Monday, August 21, 2023 23:00
+              user: JMOPIANO
+              link: twitch.tv/JMOPIANO
 - host: Jedi_NiTeMaRe
   raids:
     - name: Jedi Friends 15
