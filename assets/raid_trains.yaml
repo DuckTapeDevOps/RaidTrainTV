@@ -5,79 +5,64 @@
         - day: Thursday, January 25, 2023
           events:
             - time: Thursday, January 25, 2024 06:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
+              user: <empty>-SockhouseStudios-planning
+              link: twitch.tv/SockhouseStudios
             - time: Thursday, January 25, 2024 07:00
               user: SockhouseStudios
               link: twitch.tv/SockhouseStudios
             - time: Thursday, January 25, 2024 08:00
-              user: SockhouseStudios
+              user: <empty>-SockhouseStudios-planning
               link: twitch.tv/SockhouseStudios
             - time: Thursday, January 25, 2024 09:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
+              user: <empty>-SockhouseStudios-planning
+              link: twitch.tv/SockhouseStudios
             - time: Thursday, January 25, 2024 10:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 11:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 12:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 13:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 14:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 15:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 16:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 17:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 18:00
-              user: DuckTapeDevOps
+              user: <empty>-DuckTapeDevOps-planning
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 19:00
-              user: dogwithglasseson
+              user: dogwithglasseson-available
               link: twitch.tv/dogwithglasseson
             - time: Thursday, January 25, 2024 20:00
-              user: dogwithglasseson
+              user: dogwithglasseson-available
               link: twitch.tv/dogwithglasseson
             - time: Thursday, January 25, 2024 21:00
-              user: dogwithglasseson
+              user: dogwithglasseson-available
               link: twitch.tv/dogwithglasseson
             - time: Thursday, January 25, 2024 22:00
               user: DuckTapeDevOps
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 23:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
+              user: MatisseTec
+              link: twitch.tv/MatisseTec
         - day: Friday, January 26, 2023
           events:
             - time: Friday, January 26, 2024 00:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
-            - time: Friday, January 26, 2024 01:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
-            - time: Friday, January 26, 2024 02:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
-            - time: Friday, January 26, 2024 03:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
-            - time: Friday, January 26, 2024 04:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
-            - time: Friday, January 26, 2024 05:00
-              user: DuckTapeDevOps
-              link: twitch.tv/DuckTapeDevOps
+              user: OpenSet
+              link: twitch.tv/OpenSet
 
 - host: JazzCreatorsOnline
   raids :
