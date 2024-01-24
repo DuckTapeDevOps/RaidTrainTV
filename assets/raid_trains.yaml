@@ -4,36 +4,12 @@
       days:
         - day: Thursday, January 25, 2023
           events:
-            - time: Thursday, January 25, 2024 06:00
-              user: <empty>-SockhouseStudios-planning
-              link: twitch.tv/SockhouseStudios
-            - time: Thursday, January 25, 2024 07:00
-              user: SockhouseStudios
-              link: twitch.tv/SockhouseStudios
-            - time: Thursday, January 25, 2024 08:00
-              user: <empty>-SockhouseStudios-planning
-              link: twitch.tv/SockhouseStudios
-            - time: Thursday, January 25, 2024 09:00
-              user: <empty>-SockhouseStudios-planning
-              link: twitch.tv/SockhouseStudios
-            - time: Thursday, January 25, 2024 10:00
-              user: SpirodonFL
-              link: twitch.tv/SpirodonFL
-            - time: Thursday, January 25, 2024 11:00
-              user: <empty>-DuckTapeDevOps-planning
-              link: twitch.tv/DuckTapeDevOps
-            - time: Thursday, January 25, 2024 12:00
-              user: <empty>-DuckTapeDevOps-planning
-              link: twitch.tv/DuckTapeDevOps
-            - time: Thursday, January 25, 2024 13:00
-              user: <empty>-DuckTapeDevOps-planning
-              link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 14:00
-              user: <empty>-DuckTapeDevOps-planning
+              user: DuckTapeDevOps
               link: twitch.tv/DuckTapeDevOps
             - time: Thursday, January 25, 2024 15:00
-              user: <empty>-DuckTapeDevOps-planning
-              link: twitch.tv/DuckTapeDevOps
+              user: SockhouseStudios
+              link: twitch.tv/SockhouseStudios
             - time: Thursday, January 25, 2024 16:00
               user: krikit_
               link: twitch.tv/krikit_
