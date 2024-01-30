@@ -1,32 +1,19 @@
-<h1 align='center'>
-    RaidTrainTV
-</h1> 
+# RaidTrainTV
 
-<div align='center'>
-    <img src='media\images\RaidTrain.png' width='200'>
-</div>
+![Alt Text](./media/images/RaidTrain.png)
 
-<h2 align='center'>Sections</h2>
-
-<div align='center'>
-    ·
-    <a href='#contribute'>How to Contribute</a>
-    ·
-    <a href='#tech-stack'>Tech Stack</a>
-    ·
-    <a href='#brain-dump'>Brain Dump</a>
-    ·
-    <a href='#backlog'>Back Log</a>
-    ·
-</div>
+## Sections
+- [Description](#project-description)
+- [How to Contribute](#how-to-contribute)
+- [Tech Stack](#tech-stack-needs)
+- [Brain Dump](#brain-dump-wants)
+- [Backlog](#backlog)
 
 ## Project Description
 
 A Raid Train on Twitch is essentially a music festival or equivalent that includes new artists every ~hour and the train simply raids into the next artist. Raidtrain.tv will be a website for organizers to host their raid trains and for patrons to find where the train is such that they can join at any time. This experience should be seemless and hopefully include an embedded version of the active entertainer.
 
-<div align='center'>
-    <img src='media/images/real-mvp.gif' width='400' align='center'>
-</div>
+![Alt Text](./media/images/real-mvp.gif)
 
 MVP: Minimal Viable Product
 
@@ -34,7 +21,6 @@ There will be a single page per organizer that will display the raid trains that
 
 
 ## How to Contribute
-<span id='contribute'>
 
 ### Initial Setup
 
@@ -91,7 +77,6 @@ events:  #The list of events
 
 
 ## Tech Stack (Needs)
-<span id='tech-stack'></span>
 
 ![Alt Text](./media/images/surprise-whats-in-the-box.gif)
 
@@ -102,7 +87,6 @@ events:  #The list of events
 ------
 
 ## Brain Dump (Wants)
-<span id='brain-dump'></span>
 
 ![Alt Text](./media/images/ThisIsFine.jpeg)
 
@@ -110,7 +94,6 @@ events:  #The list of events
 - CloudFront
 
 ## Backlog
-<span id='backlog'></span>
 
 - Discord Bot
 - Twitch Bot
