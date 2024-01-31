@@ -39,6 +39,45 @@
             - time: Friday, January 26, 2024 00:00
               user: OpenSet
               link: twitch.tv/OpenSet
+    - name: Pitch Practice 2, the second pp EST
+      days:
+        - day: Thursday, February 9, 2024
+          events:
+            - time: Thursday, February 9, 2024 14:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 15:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 16:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 17:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 18:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 19:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 20:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 21:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 22:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+            - time: Thursday, February 9, 2024 23:00
+              user: DuckTapeDevOps-planning
+              link: twitch.tv/DuckTapeDevOps
+        - day: After Party!
+          events:
+            - time: Friday, February 10, 2024 00:00
+              user: TBD
+              link: twitch.tv/DuckTapeDevOps
 
 - host: JazzCreatorsOnline
   raids :
