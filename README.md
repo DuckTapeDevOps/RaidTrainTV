@@ -21,7 +21,7 @@ There will be a single page per organizer that will display the raid trains that
 
 
 ## How to Contribute
-
+[Krikit](https://github.com/DuckTapeDevOps/RaidTrainTV/pull/36)
 ### Initial Setup
 
 - Fork the repo
